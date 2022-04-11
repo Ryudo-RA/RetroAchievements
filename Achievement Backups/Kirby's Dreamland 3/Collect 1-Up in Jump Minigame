@@ -1,0 +1,12 @@
+		{
+			"ID": 7757,
+			"MemAddr": "0xH02733e=5_0xH027340=51S0xH025717=0_0xH02573f=1S0xH025741=1_0xH025719=0S0xH02571b=0_0xH025743=1S0xH025745=1_0xH02571d=0S0xH025747=1_0xH02571f=0S0xH025749=1_0xH025721=0S0xH02574b=1_0xH025723=0S0xH02574d=1_0xH025725=0S0xH02574f=1_0xH025727=0",
+			"Title": "Jump for Your Life!",
+			"Description": "Collect a 1-UP in the Jumping Minigame",
+			"Points": 4,
+			"Author": "Scootaloo",
+			"Modified": 1649681693,
+			"Created": 1398677204,
+			"BadgeName": "60742",
+			"Flags": 3
+		}
