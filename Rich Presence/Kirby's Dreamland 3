@@ -1,0 +1,55 @@
+Format:Number
+FormatType=VALUE
+
+Lookup:World
+0=Level 1 - Grass Land
+1=Level 2 - Ripple Fields
+2=Level 3 - Sand Canyon
+3=Level 4 - Cloudy Park
+4=Level 5 - Iceberg
+5=Level 6 - Hyper Zone
+
+Lookup:Level
+0=Pop Star
+1=Stage 1
+2=Stage 2
+3=Stage 3
+4=Stage 4
+5=Stage 5
+6=Stage 6	
+7=Boss Stage
+
+Lookup:Health
+0=◻◻◻◻◻
+1-2=◼◻◻◻◻
+3-4=◼◼◻◻◻
+5-6=◼◼◼◻◻
+7-8=◼◼◼◼◻
+9-10=◼◼◼◼◼
+
+Lookup:Ability
+0=⬜ Normal
+1=🔥 Burning
+2=🧱 Stone
+3=🧊 Ice
+4=📌 Needle
+5=🧹 Clean
+6=⛱ Parasol
+7=⚡ Spark
+8=✂ Cutter
+9=✨ Heart Rod
+
+Lookup:Gooey
+0=without Gooey
+1-8=with Gooey
+
+Display:
+?S0xH2733E=h25S0xH2733E>=h21_0xH2733E<=h23?📺 On Menus
+?0xH2733E=h2A?📺 Viewing the True Ending
+?0xH2733E=h2B?📺 Viewing the Normal Ending
+?0xH23617=0?[ @Ability(0xH254A9) ] Kirby is in @World(0xH253CF): @Level(0xH253D3), @Gooey(0xH239D3) | @Health(0xH239D1) | Lives: @Number(0xH239CF_v-1) | ⭐ @Number(0xH239D7) | 💯 Game Completion: @Number(0xH25ED2)%
+?0xH23617=1?[ @Ability(0xH254A9) ] Kirby is in @World(0xH253CF): @Level(0xH253D3), @Gooey(0xH239D3) | @Health(0xH239D1) | Lives: @Number(0xH239CF_v-1) | ⭐ @Number(0xH239D7) | 💯 Game Completion: @Number(0xH25ED4)%
+?0xH23617=2?[ @Ability(0xH254A9) ] Kirby is in @World(0xH253CF): @Level(0xH253D3), @Gooey(0xH239D3) | @Health(0xH239D1) | Lives: @Number(0xH239CF_v-1) | ⭐ @Number(0xH239D7) | 💯 Game Completion: @Number(0xH25ED6)%
+Kirby is preparing for an adventure!
+
+//RP by Ryudo (04/12/2022)
