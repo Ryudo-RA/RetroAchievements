@@ -1,0 +1,44 @@
+Format:Number
+FormatType=VALUE
+
+Lookup:Health
+5-6=⚫⚫⚫
+3-4=⚫⚫⚪
+1-2=⚫⚪⚪
+0=⚪⚪⚪
+
+Lookup:Health2
+7-8=⚫⚫⚫⚫
+5-6=⚫⚫⚫⚪
+3-4=⚫⚫⚪⚪
+1-2=⚫⚪⚪⚪
+0=⚪⚪⚪⚪
+
+Lookup:Health3
+9-10=⚫⚫⚫⚫⚫
+7-8=⚫⚫⚫⚫⚪
+5-6=⚫⚫⚫⚪⚪
+3-4=⚫⚫⚪⚪⚪
+1-2=⚫⚪⚪⚪⚪
+0=⚪⚪⚪⚪⚪
+
+Lookup:Stage
+0=Niagara
+1=Bermuda
+2=Egypt
+3=Mu
+4=Scotland
+5=Underground
+6=Glomgold's Ship
+
+Display:
+?0xHC900=6_0xHC91C=2_0xHC934=3_0xRC920=0_0xHC925=0_0xHC926=0_0xHC927=0_0xHC928=0?📺 Viewing the Bad Ending
+?0xHC900=6_0xHC91C=2_0xHC934=3_0xRC920=0?📺 Viewing the Normal Ending
+?0xHC900=6_0xHC91C=2_0xHC934=3_0xRC920=1?📺 Viewing the Good Ending
+?0xHC912=0?Uncle Scrooge is taking a breather
+?0xHC910=10?Uncle Scrooge is hunting for treasure | ⛰️ @Stage(0xHC900) | ❤️ @Health3(0xHC911) | 🦆 @Number(0xHC912_v-1) | 🏆 Big Treasures: @Number(0xMC920_0xNC920_0xOC920_0xPC920_0xQC920_0xRC920_0xOC923_0xPC923)/8 | 🗺 Maps Found: @Number(0xMC921_0xNC921_0xOC921_0xPC921_0xQC921)/5 | Current 💰 @Number(b0xHC929*1000000_b0xHC92A*10000_b0xHC92B*100_b0xHC92C) | Total 💰 @Number(b0xHC925*1000000_b0xHC926*10000_b0xHC927*100_b0xHC928)
+?0xHC910=8?Uncle Scrooge is hunting for treasure | ⛰️ @Stage(0xHC900) | ❤️ @Health2(0xHC911) | 🦆 @Number(0xHC912_v-1) | 🏆 Big Treasures: @Number(0xMC920_0xNC920_0xOC920_0xPC920_0xQC920_0xRC920_0xOC923_0xPC923)/8 | 🗺 Maps Found: @Number(0xMC921_0xNC921_0xOC921_0xPC921_0xQC921)/5 | Current 💰 @Number(b0xHC929*1000000_b0xHC92A*10000_b0xHC92B*100_b0xHC92C) | Total 💰 @Number(b0xHC925*1000000_b0xHC926*10000_b0xHC927*100_b0xHC928)
+?0xHC910=6?Uncle Scrooge is hunting for treasure | ⛰️ @Stage(0xHC900) | ❤️ @Health(0xHC911) | 🦆 @Number(0xHC912_v-1) | 🏆 Big Treasures: @Number(0xMC920_0xNC920_0xOC920_0xPC920_0xQC920_0xRC920_0xOC923_0xPC923)/8 | 🗺 Maps Found: @Number(0xMC921_0xNC921_0xOC921_0xPC921_0xQC921)/5 | Current 💰 @Number(b0xHC929*1000000_b0xHC92A*10000_b0xHC92B*100_b0xHC92C) | Total 💰 @Number(b0xHC925*1000000_b0xHC926*10000_b0xHC927*100_b0xHC928)
+Uncle Scrooge is preparing to land
+
+//RP by Ryudo (03/29/2022)
