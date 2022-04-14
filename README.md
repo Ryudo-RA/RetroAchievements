@@ -1,1 +1,4 @@
-Reposit for RetroAchievement stuff such as logic backups, Rich Presence, etc.
+**RetroAchievements**
+
+* Backup code for Achievements
+* Rich Presence
