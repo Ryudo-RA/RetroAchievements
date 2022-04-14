@@ -1,0 +1,40 @@
+Format:Digit
+FormatType=VALUE
+
+Lookup:Area
+0x20=Dracuman
+0x21-0x22=Vampra
+0x23=Ratville
+0x25=En route to Vampra
+0x26=Traveling to Castle Von Hesler
+0x27=Making an Emergency Landing
+0x00-0x02=Fighter Island
+0x03-0x09=Dracuman Castle
+0x0A-0x0B,0x0E=Rat Mountain
+0x0F=Kalala Desert
+0x0C-0x0D=Pyramid
+0x10,0x12=Mount Vampra
+0x11=Mount Vampra - Cave
+0x13-0x14,0x16=Ice Palace
+0x17=Jungle of Mazes
+0x18=Von Hesler's Castle
+
+Lookup:Area2
+0x20001=Fighter Island - Final Lessons
+0x90004=Dracuman Castle - Throne Room
+0xF0000=Preparing in Kalala Desert
+0xC0002=Pyramid - Croc's Room
+0xD0000=Pyramid - Kalala Root's Room
+0x160006=Ice Palace - Freezer's Room
+0x170003=Jungle of Mazes - Moray's Room
+0x180002=Von Hesler's Castle - Hydra's Room
+0x180005=Von Hesler's Castle - Throne Room
+
+Display:
+?S0xH13=h40S0xH13=h41?Preparing for an adventure
+?S0xW11=h20001S0xW11=h90004S0xW11=hF0000S0xW11=hC0002S0xW11=hD0000S0xW11=h160006S0xW11=h170003S0xW11=h180002S0xW11=h180005?🧛 Spike (Level @Digit(0xHA3F_v+1)) | 🗺 @Area2(0xW11) | ⏱️ Time: @Digit(0xHB08)h@Digit(0xHB0B)m@Digit(0xHB0A)s | 💰 @Digit(0xA57)
+🧛 Spike (Level @Digit(0xHA3F_v+1)) | 🗺 @Area(0xH13) | ⏱️ Time: @Digit(0xHB08)h@Digit(0xHB0B)m@Digit(0xHB0A)s | 💰 @Digit(0xA57)
+
+//RP Update: Add support for range lookups - 6/19/2021 - Ryudo (1)
+//RP Update: Missing areas added - 6/19/2021 - Ryudo (2)
+//RP Update: Remove leading 0s, change Area lookups to 8/24-bit values where applicable. - Ryudo (3)
